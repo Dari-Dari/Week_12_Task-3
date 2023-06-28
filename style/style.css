@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 700;
+}
+
+.container {
+  margin: auto;
+  padding: 3rem;
+  background: radial-gradient(circle at center, #ffffff 10%, #a6e4fd 90%);
+  border-radius: 2rem;
+  min-height: 500px;
+}
+.container p {
+  margin: 1rem auto;
+  font-size: 1.2rem;
+}
+.container .imt__input {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: none;
+  border-color: darkcyan;
+}
+.container .imt__input:focus {
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.container .imt__about {
+  max-width: 30rem;
+  margin: 1.5rem auto;
+}
+.container .imt__about li {
+  background-color: #ffffff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  font-weight: 500;
+}
+
+.imt__result {
+  margin: 2rem auto;
+}
+.imt__result .imt__button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(3, 116, 41);
+  font-size: 1.2rem;
+  color: white;
+  box-shadow: 2px 2px 5px 2px rgb(181, 181, 181);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.imt__result .imt__button:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */
